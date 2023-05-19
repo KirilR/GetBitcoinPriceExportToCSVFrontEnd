@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  margin: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#crypto-data {
+  background-color: white;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#okDiv {
+  display: none;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#alarmDiv {
+  display: none;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+#isGen-started {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #00ff7f;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+}
